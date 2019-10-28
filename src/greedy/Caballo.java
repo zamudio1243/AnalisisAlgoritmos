@@ -85,17 +85,17 @@ public class Caballo {
     public int recorridoCaballo( ){
         int numMovimientos = 1;
         int maxMovimientos = this.tablero.length * this.tablero.length;
-        Coordenada aux []; // Movimientos apartir de posiciones
+        Coordenada aux []; //  Posibles movimientos apartir de posiciones
 
-        boolean band1= true;
-        while (numMovimientos < maxMovimientos && band1){
-            band1 = false;
+        boolean salto= true;
+        while (numMovimientos < maxMovimientos && salto){
+            salto = false;
             aux= posibleMovimiento(this.pos);
             int minSiguientes= 8;
             Coordenada sigMov = new Coordenada(0,0);
             for (int i = 0; i < 8 ; i++) {
                 if(validarMovimiento(aux[i])){
-                    band1= true;
+                    salto= true;
                     Coordenada[] pos= posibleMovimiento(aux[i]); // Movimientos apartir de posibles pos
                     int cont=0;
                     for (int j = 0; j < 8 ; j++) {
