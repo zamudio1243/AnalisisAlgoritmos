@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="" />
+    <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="Caballo">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/Caballo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/Caballo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/MainGreedy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/MainGreedy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greedy/Caballo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/Caballo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/greedy/MainGreedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/MainGreedy.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +31,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/git-bash.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -175,7 +181,18 @@
       <workItem from="1572231470167" duration="9310000" />
       <workItem from="1572242645106" duration="962000" />
       <workItem from="1572244919302" duration="336000" />
+      <workItem from="1572245344509" duration="542000" />
+      <workItem from="1572282141988" duration="3997000" />
+      <workItem from="1572295425239" duration="708000" />
     </task>
+    <task id="LOCAL-00001" summary="Caballo">
+      <created>1572245544095</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572245544095</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +210,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Caballo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Caballo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

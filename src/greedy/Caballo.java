@@ -92,7 +92,7 @@ public class Caballo {
             salto = false;
             aux= posibleMovimiento(this.pos);
             int minSiguientes= 8;
-            Coordenada sigMov = new Coordenada(0,0);
+            Coordenada sigMov = this.pos;
             for (int i = 0; i < 8 ; i++) {
                 if(validarMovimiento(aux[i])){
                     salto= true;
@@ -110,7 +110,8 @@ public class Caballo {
                 }
             }
             this.setPos(sigMov);
-            numMovimientos++;
+            if(salto)
+                numMovimientos++;
             this.tablero[this.pos.getX()][this.pos.getY()]=numMovimientos;
         }
         return numMovimientos;
