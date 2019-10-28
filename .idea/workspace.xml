@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="ProjectId" id="1Q2lG9PRwaEYPv6v9mdR5wgxYjy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/git-bash.exe" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="dinamicos" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.MainGreedy">
+    <configuration name="MainDinamico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dinamicos.MainDinamico" />
+      <module name="AnalisisDeAlgoritmos2020-1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dinamicos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainGreedy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="greedy.MainGreedy" />
+      <module name="AnalisisDeAlgoritmos2020-1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutaciones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Permutaciones" />
+      <module name="AnalisisDeAlgoritmos2020-1-master" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SiCADA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dinamicos.SiCADA" />
+      <module name="AnalisisDeAlgoritmos2020-1-master" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dinamicos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dinamicos.TSPKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="AnalisisDeAlgoritmos2020-1-master" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="dinamicos.TSPKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainGreedy" />
+        <item itemvalue="Application.MainDinamico" />
+        <item itemvalue="Application.Permutaciones" />
+        <item itemvalue="Application.SiCADA" />
+        <item itemvalue="Kotlin.dinamicos.TSPKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="" />
+      <created>1566976473337</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1566976473337</updated>
+      <workItem from="1566976477355" duration="743000" />
+      <workItem from="1567041080594" duration="603000" />
+      <workItem from="1567105704880" duration="25000" />
+      <workItem from="1567105747965" duration="16000" />
+      <workItem from="1567110181686" duration="948000" />
+      <workItem from="1567118476423" duration="1289000" />
+      <workItem from="1567188698564" duration="4451000" />
+      <workItem from="1567437756221" duration="129000" />
+      <workItem from="1567439925296" duration="588000" />
+      <workItem from="1567539715281" duration="17000" />
+      <workItem from="1567708207630" duration="2905000" />
+      <workItem from="1567793446510" duration="2339000" />
+      <workItem from="1568060657970" duration="1679000" />
+      <workItem from="1568144878204" duration="52000" />
+      <workItem from="1568894632107" duration="4997000" />
+      <workItem from="1568909183590" duration="361000" />
+      <workItem from="1568916897556" duration="3928000" />
+      <workItem from="1568923602410" duration="125000" />
+      <workItem from="1569272054162" duration="421000" />
+      <workItem from="1569466051036" duration="311000" />
+      <workItem from="1569466502359" duration="2488000" />
+      <workItem from="1569521481357" duration="3236000" />
+      <workItem from="1569609454853" duration="5842000" />
+      <workItem from="1569733745412" duration="2823000" />
+      <workItem from="1569809551264" duration="14715000" />
+      <workItem from="1569850519530" duration="4855000" />
+      <workItem from="1569855912857" duration="4602000" />
+      <workItem from="1569868790220" duration="213000" />
+      <workItem from="1569869472491" duration="73000" />
+      <workItem from="1569872312458" duration="4356000" />
+      <workItem from="1569904225258" duration="166000" />
+      <workItem from="1570048297055" duration="39000" />
+      <workItem from="1570144875877" duration="4293000" />
+      <workItem from="1570478262960" duration="3634000" />
+      <workItem from="1570564402805" duration="28000" />
+      <workItem from="1570818440263" duration="4540000" />
+      <workItem from="1571027265621" duration="3009000" />
+      <workItem from="1571076183520" duration="783000" />
+      <workItem from="1571082203927" duration="742000" />
+      <workItem from="1571170283234" duration="19000" />
+      <workItem from="1571333679237" duration="1474000" />
+      <workItem from="1571335672576" duration="2452000" />
+      <workItem from="1571429018527" duration="24000" />
+      <workItem from="1571687503891" duration="1030000" />
+      <workItem from="1571774350734" duration="228000" />
+      <workItem from="1571940962968" duration="4806000" />
+      <workItem from="1572231470167" duration="9310000" />
+      <workItem from="1572242645106" duration="962000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dinamicos/Fibonacci.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dinamicos/Camino.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dinamicos/Herramientas.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dinamicos/Mochila.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="aux[0].y" />
+        <watch expression="aux[0]" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
