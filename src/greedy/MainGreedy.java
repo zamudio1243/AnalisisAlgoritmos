@@ -5,7 +5,7 @@ Hector octubre 2019
 
 public class MainGreedy {
     public static void main(String[] args) {
-        Caballo caballo = new Caballo(8,4,3);
+        Caballo caballo = new Caballo(9,7,6);
         int numMovimientos = caballo.recorridoCaballo();
         for (int i = 0; i < caballo.getTablero().length ; i++) {
             for (int j = 0; j < caballo.getTablero().length ; j++) {
@@ -14,6 +14,5 @@ public class MainGreedy {
             System.out.println("");
         }
         System.out.println("Llego hasta: "+numMovimientos);
-
     }
 }

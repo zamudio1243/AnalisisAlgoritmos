@@ -59,9 +59,10 @@ public class Mochila {
                 } else {
                     this.mBeneficios[i][w] = this.mBeneficios[i - 1][w];
                 }
+                System.out.print(String.format("%6.1f",this.mBeneficios[i][w]));
                 //System.out.print(this.mBeneficios[i][w] + ",");
             }
-            //System.out.println("");
+            System.out.println("");
         }
 
 
@@ -73,7 +74,7 @@ public class Mochila {
 
         int i = this.items.size();
         int j = this._W;
-
+        System.out.println("Articulos solucion");
         while (i > 0 && j > 0){
             double val = this.mBeneficios[i][j];
             if( val != this.mBeneficios[i-1][j]){
@@ -88,6 +89,7 @@ public class Mochila {
             }
 
         }
+        System.out.println("Maximo beneficio: "+this.maxBenefit);
 
         System.out.println();
     }

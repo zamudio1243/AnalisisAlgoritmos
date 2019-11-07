@@ -55,7 +55,7 @@ public class MainDinamico {
          */
     }
     public static void fuerzaBruta(){
-        /*int[][] matriz = {
+        int[][] matriz = {
                 {0,  13, 33, 28, 37, 7, 32,  40, 80, 26},
                 {13, 0,  39, 83, 50, 68, 16, 98, 81, 55},
                 {33, 39, 0,  80, 88, 49, 53, 75, 63, 55},
@@ -68,13 +68,16 @@ public class MainDinamico {
                 {26, 55, 55, 76, 19, 37, 68, 41, 97, 0}
         };
 
+        Camino camino = new Camino(matriz,0);
+        System.out.println(camino.minDistancia());
+/*
         int[][] matriz={
             {0, 11,12,3},
             {11,0, 0, 9},
             {12,0, 0, 7},
             {3, 9, 7, 0}
         };
-        */
+
 
         int[][] matriz={
                 {0,3,1,6},
@@ -88,6 +91,8 @@ public class MainDinamico {
             System.out.println("Minimio a recorrer: "+camino.minDistancia());
         }
 
+         */
+
     }
 
     public static void mochila(){
@@ -97,7 +102,7 @@ public class MainDinamico {
         //Herramientas.leerDatos();
         //Mochila bagpack= new Mochila(Herramientas.items);
        // System.out.println(bagpack.toString());
-        /*
+
         ArrayList<Item> items = new ArrayList<>();
         items.add(new Item(3,34));
         items.add(new Item(6,28));
@@ -105,11 +110,11 @@ public class MainDinamico {
         items.add(new Item(1,23));
         items.add(new Item(9,11));
         items.add(new Item(1,19));
-        items.add(new Item(11,700));
+        items.add(new Item(11,7));
 
-         */
 
-        Mochila backpack = new Mochila(Item.generarItems(1000,100,100),500);
+
+        Mochila backpack = new Mochila(items,11);
         backpack.buscarSolucion();
 
 

@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="Caballo">
+    <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/dinamicos/TSP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/Caballo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/Caballo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/META-INF/AnalisisDeAlgoritmos2020-1-master.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/META-INF/AnalisisDeAlgoritmos2020-1-master.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/MainDinamico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/MainDinamico.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/Mochila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/Mochila.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/SiCADA.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP$Dato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSPKt.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/MainGreedy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/MainGreedy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greedy/Caballo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/Caballo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/MainDinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/MainDinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/Mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/Mochila.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/SiCADA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/TSP.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/greedy/MainGreedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/MainGreedy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -52,7 +64,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainGreedy">
+  <component name="RunManager" selected="Application.MainDinamico">
     <configuration name="MainDinamico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dinamicos.MainDinamico" />
       <module name="AnalisisDeAlgoritmos2020-1-master" />
@@ -99,26 +111,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dinamicos.TSPKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="TSP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dinamicos.TSP" />
       <module name="AnalisisDeAlgoritmos2020-1-master" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="dinamicos.TSPKt" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dinamicos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainGreedy" />
         <item itemvalue="Application.MainDinamico" />
+        <item itemvalue="Application.TSP" />
+        <item itemvalue="Application.MainGreedy" />
         <item itemvalue="Application.Permutaciones" />
         <item itemvalue="Application.SiCADA" />
-        <item itemvalue="Kotlin.dinamicos.TSPKt" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +195,13 @@
       <workItem from="1572244919302" duration="336000" />
       <workItem from="1572245344509" duration="542000" />
       <workItem from="1572282141988" duration="3997000" />
-      <workItem from="1572295425239" duration="708000" />
+      <workItem from="1572295425239" duration="1636000" />
+      <workItem from="1572297438381" duration="1478000" />
+      <workItem from="1573015791331" duration="35000" />
+      <workItem from="1573015917755" duration="1820000" />
+      <workItem from="1573089908977" duration="480000" />
+      <workItem from="1573090686643" duration="6226000" />
+      <workItem from="1573106372451" duration="244000" />
     </task>
     <task id="LOCAL-00001" summary="Caballo">
       <created>1572245544095</created>
@@ -192,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572245544095</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Formateo de tablero">
+      <created>1572296381723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572296381723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +238,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Caballo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Caballo" />
+    <MESSAGE value="Formateo de tablero" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formateo de tablero" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -224,18 +250,13 @@
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/dinamicos/Camino.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dinamicos/Herramientas.java</url>
           <line>45</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dinamicos/Mochila.java</url>
-          <line>76</line>
+          <line>77</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
