@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/dinamicos/TSP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/META-INF/AnalisisDeAlgoritmos2020-1-master.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/META-INF/AnalisisDeAlgoritmos2020-1-master.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/MainDinamico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/MainDinamico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/Mochila.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/Mochila.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/SiCADA.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP$1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP$Dato.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSP.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/dinamicos/TSPKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/MainGreedy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AnalisisDeAlgoritmos2020-1-master/greedy/MainGreedy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dinamicos/MainDinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/MainDinamico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dinamicos/Mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/Mochila.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dinamicos/SiCADA.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dinamicos/TSP.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/greedy/MainGreedy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/greedy/MainGreedy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/TSP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/TSP.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +49,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MainDinamico">
+  <component name="RunManager" selected="Application.TSP">
     <configuration name="MainDinamico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dinamicos.MainDinamico" />
       <module name="AnalisisDeAlgoritmos2020-1-master" />
@@ -126,8 +111,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MainDinamico" />
         <item itemvalue="Application.TSP" />
+        <item itemvalue="Application.MainDinamico" />
         <item itemvalue="Application.MainGreedy" />
         <item itemvalue="Application.Permutaciones" />
         <item itemvalue="Application.SiCADA" />
@@ -202,6 +187,8 @@
       <workItem from="1573089908977" duration="480000" />
       <workItem from="1573090686643" duration="6226000" />
       <workItem from="1573106372451" duration="244000" />
+      <workItem from="1573133517291" duration="742000" />
+      <workItem from="1573171113528" duration="1869000" />
     </task>
     <task id="LOCAL-00001" summary="Caballo">
       <created>1572245544095</created>
@@ -217,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572296381723</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se carga TSP">
+      <created>1573133570939</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573133570939</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +233,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Caballo" />
     <MESSAGE value="Formateo de tablero" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formateo de tablero" />
+    <MESSAGE value="Se carga TSP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Se carga TSP" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

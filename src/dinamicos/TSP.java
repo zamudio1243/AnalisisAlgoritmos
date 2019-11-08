@@ -1,6 +1,7 @@
 package dinamicos;
 /*
-Hector noviembre 2019 
+Hector noviembre 2019
+autor de codigo: https://github.com/williamfiset
 */
 import java.util.*;
 public class TSP {
@@ -152,9 +153,17 @@ public class TSP {
 
     public static void main(String[] args) {
         // Create adjacency matrix
-        int n = 10;
+        int n = 4;
         double[][] distanceMatrix = new double[n][n];
         for (double[] row : distanceMatrix) java.util.Arrays.fill(row, 10000);
+
+        distanceMatrix[0][0]= 0;distanceMatrix[0][1]= 3;distanceMatrix[0][2]= 1;   distanceMatrix[0][3]= 2;
+        distanceMatrix[1][0]= 3;distanceMatrix[1][1]= 0;distanceMatrix[1][2]= 6;   distanceMatrix[1][3]= 5;
+        distanceMatrix[2][0]= 1; distanceMatrix[2][1]= 6; distanceMatrix[2][2]= 0; distanceMatrix[2][3]= 2;
+        distanceMatrix[3][0]= 2;distanceMatrix[3][1]= 5;distanceMatrix[3][2]= 2;   distanceMatrix[3][3]= 0;
+
+
+/*
         distanceMatrix[0][0] = 0;
         distanceMatrix[0][1] = 13;
         distanceMatrix[0][2] = 33;
@@ -255,9 +264,8 @@ public class TSP {
         distanceMatrix[9][7] = 41;
         distanceMatrix[9][8] = 37;
         distanceMatrix[9][9] = 0;
-
-
-        int startNode = 0;
+*/
+        int startNode = 3;
         TSP solver =
                 new TSP(startNode, distanceMatrix);
 
