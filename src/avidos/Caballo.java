@@ -1,4 +1,4 @@
-package greedy;
+package avidos;
 /*
 Hector octubre 2019
 Heuristica: Mover el caballo a la posicion con menor numero de posibles movimientos
