@@ -59,12 +59,18 @@ public class Mochila {
                 } else {
                     this.mBeneficios[i][w] = this.mBeneficios[i - 1][w];
                 }
-                System.out.print(String.format("%6.1f",this.mBeneficios[i][w]));
+
                 //System.out.print(this.mBeneficios[i][w] + ",");
             }
-            System.out.println("");
+
         }
 
+        for (int i = 0; i < this.mBeneficios.length ; i++) {
+            for (int j = 0; j < this.mBeneficios[i].length; j++) {
+                System.out.print(String.format("%6.1f",this.mBeneficios[i][j]));
+            }
+            System.out.println();
+        }
 
 
 

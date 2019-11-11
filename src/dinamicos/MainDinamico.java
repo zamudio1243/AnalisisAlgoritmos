@@ -112,13 +112,9 @@ public class MainDinamico {
         items.add(new Item(1,19));
         items.add(new Item(11,7));
 
-
-
         Mochila backpack = new Mochila(items,11);
         backpack.buscarSolucion();
-
-
-
+        Herramientas.guardar(backpack);
 
     }
     public static  void main(String[] agrs){

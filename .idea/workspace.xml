@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f2e552c3-eacc-4f6f-b944-57123a6ae871" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/mochilaSaved.txt" beforeDir="false" afterPath="$PROJECT_DIR$/db/mochilaSaved.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/MainDinamico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/MainDinamico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dinamicos/Mochila.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dinamicos/Mochila.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +30,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PR/PatternRecognition2020-1-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
@@ -48,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TSP">
+  <component name="RunManager" selected="Application.MainDinamico">
     <configuration name="MainDinamico" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="dinamicos.MainDinamico" />
       <module name="AnalisisDeAlgoritmos2020-1-master" />
@@ -110,8 +113,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TSP" />
         <item itemvalue="Application.MainDinamico" />
+        <item itemvalue="Application.TSP" />
         <item itemvalue="Application.MainGreedy" />
         <item itemvalue="Application.Permutaciones" />
         <item itemvalue="Application.SiCADA" />
@@ -189,6 +192,7 @@
       <workItem from="1573133517291" duration="742000" />
       <workItem from="1573171113528" duration="2042000" />
       <workItem from="1573437470530" duration="39000" />
+      <workItem from="1573505073499" duration="800000" />
     </task>
     <task id="LOCAL-00001" summary="Caballo">
       <created>1572245544095</created>
@@ -225,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573174770245</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Reportes">
+      <created>1573505114744</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573505114744</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +277,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dinamicos/Mochila.java</url>
-          <line>77</line>
+          <line>83</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
