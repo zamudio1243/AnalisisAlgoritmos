@@ -2,7 +2,7 @@
 #include <string.h>
 
 int rabinKarp(char text[], char cadena[]){
-	int D = 256; // Numero primo para hash
+	int D = 256; 
 	int Q = 3; // Segundo numero primo para hash
 	int empates = 0; // Numero de empates
 	int hCadena = 0; // Hash de cadena
@@ -29,7 +29,7 @@ int rabinKarp(char text[], char cadena[]){
 				}
 			}
 			hText = (hText + (Q*D) - text[k]*dM) % Q;
-			// Recorre la clave hash el tamanio  de la cadena debido a la coincidencia
+			// Recorre la clave hash el tamanio  de la cadena
 			hText = ((hText * D) + text[k + strlen(cadena)]) % Q ;
 			
 		}
@@ -39,7 +39,7 @@ int rabinKarp(char text[], char cadena[]){
 }
 
 int main(int argc, char *argv[]) {
-	char text[]= "HolaHolaHola Holatdrgsjftkufhdjghdxdhfdxchgmgncbghdfgfdhfxngdd_aaioñlhuliymk##";
+	char text[]= "HolaHolaHolaHolaAdiosAdiosAdiosHola Hola Hola Adios Adios";
 	char cadena[] ="Hola";
 	printf("Empates: %d",rabinKarp(text,cadena));
 	return 0;
